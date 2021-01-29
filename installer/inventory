@@ -63,8 +63,8 @@ dockerhub_base=ansible
 awx_task_hostname=awx
 awx_web_hostname=awxweb
 postgres_data_dir="~/.awx/pgdocker"
-host_port=80
-host_port_ssl=443
+host_port=9080
+host_port_ssl=9443
 #ssl_certificate=
 # Optional key file
 #ssl_certificate_key=
@@ -122,7 +122,7 @@ secret_key=awxsecret
 # Build AWX with official logos
 # Requires cloning awx-logos repo as a sibling of this project.
 # Review the trademark guidelines at https://github.com/ansible/awx-logos/blob/master/TRADEMARKS.md
-# awx_official=false
+awx_official=true
 
 # Proxy
 #http_proxy=http://proxy:3128
